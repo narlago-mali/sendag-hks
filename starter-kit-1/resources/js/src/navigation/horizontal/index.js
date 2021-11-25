@@ -13,6 +13,11 @@ export default [
         route: 'second-page',
         icon: 'FileIcon',
       },
+      {
+        title: 'Hastalar',
+        route: '/hastalar',
+        icon: 'FileIcon',
+      },
     ],
   },
 ]

@@ -5,6 +5,8 @@ import VueCompositionAPI from '@vue/composition-api'
 import router from './router'
 import store from './store'
 import App from './App.vue'
+import 'devextreme/dist/css/dx.light.css';
+
 
 // Global Components
 import './global-components'
