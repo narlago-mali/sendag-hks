@@ -1,23 +1,21 @@
 export default [
   {
-    header: 'Pages',
+    title: 'Anasayfa',
+    header: 'Sayfalar',
     icon: 'FileIcon',
-    children: [
-      {
-        title: 'Home',
-        route: 'home',
-        icon: 'HomeIcon',
-      },
-      {
-        title: 'Second Page',
-        route: 'second-page',
-        icon: 'FileIcon',
-      },
-      {
-        title: 'Hastalar',
-        route: '/hastalar',
-        icon: 'FileIcon',
-      },
-    ],
+    route: 'home'
+  },
+  {
+    title: 'Hasta Listesi',
+    header: 'Hasta Listesi',
+    route: 'hastalar',
+    icon: 'FileIcon',
+  },
+  {
+    title: 'Hasta Ekle',
+    header: 'Hasta Ekle',
+    route: 'hastaekle',
+    icon: 'FileIcon',
+
   },
 ]

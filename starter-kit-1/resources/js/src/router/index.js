@@ -58,8 +58,26 @@ const router = new VueRouter({
     },
     {
       path: '/hastalar',
-      name: 'Patients',
+      name: 'hastalar',
       component: () => import('@/views/Patients.vue'),
+      beforeEnter: guard
+    },
+    {
+      path: '/hastatakip',
+      name: 'hastatakip',
+      component: () => import('@/views/PatientsFollow.vue'),
+      beforeEnter: guard
+    },
+    {
+      path: '/katalogekle',
+      name: 'katalogekle',
+      component: () => import('@/views/AddCatalog.vue'),
+      beforeEnter: guard
+    },
+    {
+      path: '/hastaekle',
+      name: 'hastaekle',
+      component: () => import('@/views/AddPatients.vue'),
       beforeEnter: guard
     },
     {
